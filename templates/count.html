@@ -1,0 +1,9 @@
+<h1>COUNT PAGE</h1>
+<h2>There are {{count}} words in the given text</h2>
+{{sentence}}
+<br />
+{% for word, counttotal in sortedwords %}
+<br />
+{{word}} - {{counttotal}}
+<br />
+{% endfor %}
